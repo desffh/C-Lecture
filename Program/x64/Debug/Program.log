@@ -1,2 +1,5 @@
 ﻿  Source.c
-  Program.vcxproj -> C:\Users\Administrator\Desktop\Program\x64\Debug\Program.exe
+C:\Users\Administrator\Desktop\C-Lecture\Program\Source.c(62,7): error C2059: 구문 오류: '숫자의 접미사가 잘못되었습니다.'
+C:\Users\Administrator\Desktop\C-Lecture\Program\Source.c(62,7): error C2143: 구문 오류: ';'이(가) '상수' 앞에 없습니다.
+C:\Users\Administrator\Desktop\C-Lecture\Program\Source.c(62,7): warning C4091: ' ': 변수를 선언하지 않으면 'char' 왼쪽은 무시됩니다.
+C:\Users\Administrator\Desktop\C-Lecture\Program\Source.c(62,7): error C2106: '=': 왼쪽 피연산자는 l-value이어야 합니다.
