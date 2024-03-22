@@ -33,7 +33,7 @@ void main()
 	//	printf("result 변수의 값 : %d\n", result); //5
 	//	printf("count 변수의 값 : %d\n", count); //6
 	//	
-	//	result = count--;z
+	//	result = count--;
 	//	
 	//	printf("result 변수의 값 : %d\n", result); //6
 	//	printf("count 변수의 값 : %d\n", count); //5
