@@ -38,7 +38,7 @@ void main()
 #pragma region 배열
 	// 같은 자료형의 변수들로 이루어진 유한 집합입니다.
 
-	int array[5];
+	//int array[5];
 
 	//array[0] = 10;
 	//printf("array[0]의 값 : %d\n", array[0]);
@@ -67,7 +67,7 @@ void main()
 	//
 	//printf("list의 주소 : %p\n", list);
 	//printf("list[0]의 주소 : %p\n", &list[0]);
-	//
+	
 	//int* ptr = NULL;
 	//ptr = list; 
 	//*ptr = 10;
