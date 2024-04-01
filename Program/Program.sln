@@ -29,6 +29,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class11th (Function)", "..\
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class12th (Recursive Function)", "..\Class12th (Recursive Function)\Class12th (Recursive Function).vcxproj", "{B41E3CFF-8D1F-45F6-8ADF-0DA4E61D4B9F}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class13th (Variable Scope)", "..\Class13th (Variable Scope)\Class13th (Variable Scope).vcxproj", "{0D753152-A0CE-4135-BE36-27A69794E344}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -141,6 +143,14 @@ Global
 		{B41E3CFF-8D1F-45F6-8ADF-0DA4E61D4B9F}.Release|x64.Build.0 = Release|x64
 		{B41E3CFF-8D1F-45F6-8ADF-0DA4E61D4B9F}.Release|x86.ActiveCfg = Release|Win32
 		{B41E3CFF-8D1F-45F6-8ADF-0DA4E61D4B9F}.Release|x86.Build.0 = Release|Win32
+		{0D753152-A0CE-4135-BE36-27A69794E344}.Debug|x64.ActiveCfg = Debug|x64
+		{0D753152-A0CE-4135-BE36-27A69794E344}.Debug|x64.Build.0 = Debug|x64
+		{0D753152-A0CE-4135-BE36-27A69794E344}.Debug|x86.ActiveCfg = Debug|Win32
+		{0D753152-A0CE-4135-BE36-27A69794E344}.Debug|x86.Build.0 = Debug|Win32
+		{0D753152-A0CE-4135-BE36-27A69794E344}.Release|x64.ActiveCfg = Release|x64
+		{0D753152-A0CE-4135-BE36-27A69794E344}.Release|x64.Build.0 = Release|x64
+		{0D753152-A0CE-4135-BE36-27A69794E344}.Release|x86.ActiveCfg = Release|Win32
+		{0D753152-A0CE-4135-BE36-27A69794E344}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
