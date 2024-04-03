@@ -33,6 +33,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class13th (Variable Scope)"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class14th (Dynamic Allocation)", "..\Class14th (Dynamic Allocation)\Class14th (Dynamic Allocation).vcxproj", "{7F0A380A-0629-4209-B626-8981ABE7F49A}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class15th (Strucrt)", "..\Class15th (Strucrt)\Class15th (Strucrt).vcxproj", "{E09549DB-7983-4640-8234-18A3330154A9}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class16th (ASCII Code)", "..\Class16th (ASCII Code)\Class16th (ASCII Code).vcxproj", "{BA6F313B-1484-40DE-ABAA-CEAAB76F7CCA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -161,6 +165,22 @@ Global
 		{7F0A380A-0629-4209-B626-8981ABE7F49A}.Release|x64.Build.0 = Release|x64
 		{7F0A380A-0629-4209-B626-8981ABE7F49A}.Release|x86.ActiveCfg = Release|Win32
 		{7F0A380A-0629-4209-B626-8981ABE7F49A}.Release|x86.Build.0 = Release|Win32
+		{E09549DB-7983-4640-8234-18A3330154A9}.Debug|x64.ActiveCfg = Debug|x64
+		{E09549DB-7983-4640-8234-18A3330154A9}.Debug|x64.Build.0 = Debug|x64
+		{E09549DB-7983-4640-8234-18A3330154A9}.Debug|x86.ActiveCfg = Debug|Win32
+		{E09549DB-7983-4640-8234-18A3330154A9}.Debug|x86.Build.0 = Debug|Win32
+		{E09549DB-7983-4640-8234-18A3330154A9}.Release|x64.ActiveCfg = Release|x64
+		{E09549DB-7983-4640-8234-18A3330154A9}.Release|x64.Build.0 = Release|x64
+		{E09549DB-7983-4640-8234-18A3330154A9}.Release|x86.ActiveCfg = Release|Win32
+		{E09549DB-7983-4640-8234-18A3330154A9}.Release|x86.Build.0 = Release|Win32
+		{BA6F313B-1484-40DE-ABAA-CEAAB76F7CCA}.Debug|x64.ActiveCfg = Debug|x64
+		{BA6F313B-1484-40DE-ABAA-CEAAB76F7CCA}.Debug|x64.Build.0 = Debug|x64
+		{BA6F313B-1484-40DE-ABAA-CEAAB76F7CCA}.Debug|x86.ActiveCfg = Debug|Win32
+		{BA6F313B-1484-40DE-ABAA-CEAAB76F7CCA}.Debug|x86.Build.0 = Debug|Win32
+		{BA6F313B-1484-40DE-ABAA-CEAAB76F7CCA}.Release|x64.ActiveCfg = Release|x64
+		{BA6F313B-1484-40DE-ABAA-CEAAB76F7CCA}.Release|x64.Build.0 = Release|x64
+		{BA6F313B-1484-40DE-ABAA-CEAAB76F7CCA}.Release|x86.ActiveCfg = Release|Win32
+		{BA6F313B-1484-40DE-ABAA-CEAAB76F7CCA}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
