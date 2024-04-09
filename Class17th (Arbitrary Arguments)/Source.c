@@ -19,8 +19,6 @@ void Debug(int count, ...)
 	va_end(list);
 
 }
-
-
 struct Player
 {
 	int x;
