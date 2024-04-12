@@ -1,13 +1,14 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <time.h>
+#include <Windows.h>
+
 
 void ViewHP(int health)
 {
     printf("HP = ");
     for (int i = 0; i < health; i++)
-    {
-        printf("¢¾ ");
+    {   
+        printf(" ¢¾ ");
     }
     printf("\n");
 }
@@ -30,11 +31,11 @@ int main()
 
 #pragma region UP - DOWN GAME
 
-    //while (1)
-    //{
-    //    ViewHP(5);
-    //    system("cls");
-    //}
+   while (1)
+   {
+       ViewHP(5);
+       system("cls");
+   }
 
    //int computer;
    //int answer;
