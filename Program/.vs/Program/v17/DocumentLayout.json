@@ -1,17 +1,20 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\yangj\\Desktop\\C-Lecture\\Program\\",
+  "WorkspaceRootPath": "C:\\Users\\\uAE40\uC720\uC9C4\\Desktop\\C-Lecture\\Program\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F336BB51-41B6-43B2-8823-CEE246B8831E}|Program.vcxproj|C:\\Users\\yangj\\Desktop\\C-Lecture\\Program\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{EF5596A6-02EC-46B4-B221-7909855C3F98}|..\\Class19th (Typedef)\\Class19th (Typedef).vcxproj|C:\\Users\\\uAE40\uC720\uC9C4\\Desktop\\C-Lecture\\Class19th (Typedef)\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F336BB51-41B6-43B2-8823-CEE246B8831E}|Program.vcxproj|C:\\Users\\\uAE40\uC720\uC9C4\\Desktop\\C-Lecture\\Program\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{F336BB51-41B6-43B2-8823-CEE246B8831E}|Program.vcxproj|solutionrelative:Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F336BB51-41B6-43B2-8823-CEE246B8831E}|Program.vcxproj|C:\\Users\\yangj\\Desktop\\C-Lecture\\Program\\Keyboard.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{F336BB51-41B6-43B2-8823-CEE246B8831E}|Program.vcxproj|C:\\Users\\\uAE40\uC720\uC9C4\\Desktop\\C-Lecture\\Program\\Keyboard.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{F336BB51-41B6-43B2-8823-CEE246B8831E}|Program.vcxproj|solutionrelative:Keyboard.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F336BB51-41B6-43B2-8823-CEE246B8831E}|Program.vcxproj|C:\\Users\\yangj\\Desktop\\C-Lecture\\Program\\Character.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{F336BB51-41B6-43B2-8823-CEE246B8831E}|Program.vcxproj|C:\\Users\\\uAE40\uC720\uC9C4\\Desktop\\C-Lecture\\Program\\Character.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{F336BB51-41B6-43B2-8823-CEE246B8831E}|Program.vcxproj|solutionrelative:Character.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
@@ -34,43 +37,28 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 0,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Source.c",
+              "DocumentMoniker": "C:\\Users\\\uAE40\uC720\uC9C4\\Desktop\\C-Lecture\\Class19th (Typedef)\\Source.c",
+              "RelativeDocumentMoniker": "..\\Class19th (Typedef)\\Source.c",
+              "ToolTip": "C:\\Users\\\uAE40\uC720\uC9C4\\Desktop\\C-Lecture\\Class19th (Typedef)\\Source.c",
+              "RelativeToolTip": "..\\Class19th (Typedef)\\Source.c",
+              "ViewState": "AQIAACUAAAAAAAAAAAAAABoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-04-16T04:05:12.309Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Keyboard.h",
-              "DocumentMoniker": "C:\\Users\\yangj\\Desktop\\C-Lecture\\Program\\Keyboard.h",
-              "RelativeDocumentMoniker": "Keyboard.h",
-              "ToolTip": "C:\\Users\\yangj\\Desktop\\C-Lecture\\Program\\Keyboard.h",
-              "RelativeToolTip": "Keyboard.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-04-15T11:00:19.247Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Character.h",
-              "DocumentMoniker": "C:\\Users\\yangj\\Desktop\\C-Lecture\\Program\\Character.h",
+              "DocumentMoniker": "C:\\Users\\\uAE40\uC720\uC9C4\\Desktop\\C-Lecture\\Program\\Character.h",
               "RelativeDocumentMoniker": "Character.h",
-              "ToolTip": "C:\\Users\\yangj\\Desktop\\C-Lecture\\Program\\Character.h",
+              "ToolTip": "C:\\Users\\\uAE40\uC720\uC9C4\\Desktop\\C-Lecture\\Program\\Character.h",
               "RelativeToolTip": "Character.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
@@ -78,61 +66,73 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Source.c",
               "DocumentMoniker": "C:\\Users\\yangj\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\C-Lecture2\\Class21th (KeyBoard)\\Source.c",
-              "RelativeDocumentMoniker": "..\\..\\..\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\C-Lecture2\\Class21th (KeyBoard)\\Source.c",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\yangj\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\C-Lecture2\\Class21th (KeyBoard)\\Source.c",
               "ToolTip": "C:\\Users\\yangj\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\C-Lecture2\\Class21th (KeyBoard)\\Source.c",
-              "RelativeToolTip": "..\\..\\..\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\C-Lecture2\\Class21th (KeyBoard)\\Source.c",
+              "RelativeToolTip": "..\\..\\..\\..\\yangj\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\C-Lecture2\\Class21th (KeyBoard)\\Source.c",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-04-12T10:42:55.444Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "source.c",
               "DocumentMoniker": "C:\\Users\\yangj\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\C-Lecture2\\Class20th (File Input-Output)\\source.c",
-              "RelativeDocumentMoniker": "..\\..\\..\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\C-Lecture2\\Class20th (File Input-Output)\\source.c",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\yangj\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\C-Lecture2\\Class20th (File Input-Output)\\source.c",
               "ToolTip": "C:\\Users\\yangj\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\C-Lecture2\\Class20th (File Input-Output)\\source.c",
-              "RelativeToolTip": "..\\..\\..\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\C-Lecture2\\Class20th (File Input-Output)\\source.c",
+              "RelativeToolTip": "..\\..\\..\\..\\yangj\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\C-Lecture2\\Class20th (File Input-Output)\\source.c",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAAUAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-04-12T09:07:40.635Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Source.c",
               "DocumentMoniker": "C:\\Users\\yangj\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\C-Lecture2\\Class18th (Random)\\Source.c",
-              "RelativeDocumentMoniker": "..\\..\\..\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\C-Lecture2\\Class18th (Random)\\Source.c",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\yangj\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\C-Lecture2\\Class18th (Random)\\Source.c",
               "ToolTip": "C:\\Users\\yangj\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\C-Lecture2\\Class18th (Random)\\Source.c",
-              "RelativeToolTip": "..\\..\\..\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\C-Lecture2\\Class18th (Random)\\Source.c",
+              "RelativeToolTip": "..\\..\\..\\..\\yangj\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\C-Lecture2\\Class18th (Random)\\Source.c",
               "ViewState": "AQIAAGwAAAAAAAAAAAAAAAkAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-04-09T10:33:55.802Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Source.c",
-              "DocumentMoniker": "C:\\Users\\yangj\\Desktop\\C-Lecture\\Program\\Source.c",
+              "DocumentMoniker": "C:\\Users\\\uAE40\uC720\uC9C4\\Desktop\\C-Lecture\\Program\\Source.c",
               "RelativeDocumentMoniker": "Source.c",
-              "ToolTip": "C:\\Users\\yangj\\Desktop\\C-Lecture\\Program\\Source.c",
+              "ToolTip": "C:\\Users\\\uAE40\uC720\uC9C4\\Desktop\\C-Lecture\\Program\\Source.c",
               "RelativeToolTip": "Source.c",
-              "ViewState": "AQIAAC0AAAAAAAAAAAAAADkAAAAAAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABMAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-03-14T06:36:55.902Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
+              "Title": "Keyboard.h",
+              "DocumentMoniker": "C:\\Users\\\uAE40\uC720\uC9C4\\Desktop\\C-Lecture\\Program\\Keyboard.h",
+              "RelativeDocumentMoniker": "Keyboard.h",
+              "ToolTip": "C:\\Users\\\uAE40\uC720\uC9C4\\Desktop\\C-Lecture\\Program\\Keyboard.h",
+              "RelativeToolTip": "Keyboard.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-04-15T11:00:19.247Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Source.c",
               "DocumentMoniker": "C:\\Users\\yangj\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\C-Lecture2\\Class19th (Typedef)\\Source.c",
-              "RelativeDocumentMoniker": "..\\..\\..\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\C-Lecture2\\Class19th (Typedef)\\Source.c",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\yangj\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\C-Lecture2\\Class19th (Typedef)\\Source.c",
               "ToolTip": "C:\\Users\\yangj\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\C-Lecture2\\Class19th (Typedef)\\Source.c",
-              "RelativeToolTip": "..\\..\\..\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\C-Lecture2\\Class19th (Typedef)\\Source.c",
+              "RelativeToolTip": "..\\..\\..\\..\\yangj\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\C-Lecture2\\Class19th (Typedef)\\Source.c",
               "ViewState": "AQIAABoAAAAAAAAAAAAAAH4AAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-04-11T09:06:03.001Z"

@@ -26,7 +26,7 @@ enum STATUS
 
 int Factorial(int n)
 {
-    if (n <= 1)
+    if (n <= 1)  // 0! = 1, 1! = 1
     {
         return 1;
     }
@@ -53,7 +53,7 @@ int main()
 
 #pragma region 열거형
 
-    //enum STATUS status = ATTACK;
+    //enum STATUS status = DIE;
     //printf("status의 값:%d\n", status); //정수값이 나옴
     //
     //switch (status)
@@ -80,8 +80,7 @@ int main()
     //printf("%d", result);
     //
     //Factorial(3);
-
-    //int n = 0;
+    //
     //scanf_s("%d", &n);
     //printf("%d! = %d\n", n, Factorial(n));
 
