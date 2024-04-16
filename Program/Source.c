@@ -4,12 +4,15 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include "Character.h" // 사용자 정의 헤더파일
+// 키보드 헤더에 정의되어있어서 캐릭터 헤더는 적을 필요x
+//#include "Character.h" // 사용자 정의 헤더파일
+#include "Keyboard.h"
 
 #define WIDTH 11
 #define HEIGHT 11
 // 노트북으로는 공백2칸, 00 2칸 해야함 windows10
 // 데스크탑으로는 공백1칸, 0 1칸 해야함 windows11
+
 
 char maze[WIDTH][HEIGHT];
 
@@ -54,7 +57,8 @@ void Renderer()
 
 int main()
 {
-    Character character = { 1, 1, "★" };
+    Character character = { 0, 1, "★" };
+    char key = 0;
 
     Initialize();
 
@@ -62,9 +66,12 @@ int main()
     {
         Renderer();
 
+        Input(maze, &character);
+
         GotoXY(character.x, character.y);
         printf("%s", character.shape);
 
+        Sleep(50); //Sleep(1000) : 1초
         system("cls");
     }
 
