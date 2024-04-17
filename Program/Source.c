@@ -1,79 +1,175 @@
 #define _CRT_SECURE_NO_WARNINGS 
 
 #include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
+#include <conio.h>
+#include <windows.h>
 
-// 키보드 헤더에 정의되어있어서 캐릭터 헤더는 적을 필요x
-//#include "Character.h" // 사용자 정의 헤더파일
-#include "Keyboard.h"
+int width = 100;
+int height = 30;
 
-#define WIDTH 11
-#define HEIGHT 11
-// 노트북으로는 공백2칸, 00 2칸 해야함 windows10
-// 데스크탑으로는 공백1칸, 0 1칸 해야함 windows11
+HANDLE screen[2]; // 버퍼를 생성합니다.
+               // screen[0] front buffer
+               // screen[1] back buffer 
 
+// HANDLE 인덱스에 접근해서 버퍼를 교체시키는 변수 
+int screenIndex = 0;
 
-char maze[WIDTH][HEIGHT];
-
-void Initialize()
+void GotoXY(int x, int y)
 {
-    strcpy(maze[0], "1111111111");
-    strcpy(maze[1], "0000000001");
-    strcpy(maze[2], "1111111101");
-    strcpy(maze[3], "1111011101");
-    strcpy(maze[4], "1100000001");
-    strcpy(maze[5], "1101111101");
-    strcpy(maze[6], "1101100001");
-    strcpy(maze[7], "1001101111");
-    strcpy(maze[8], "1111101101");
-    strcpy(maze[9], "2000000001");
-    strcpy(maze[10],"1111111111");
+    COORD position = { x, y };
+    SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), position);
 }
 
-void Renderer()
+// 버퍼를 초기화하는 함수
+void InitializeScreen()
 {
-    for (int i = 0; i < HEIGHT; i++)
-    {
-        for (int j = 0; j < WIDTH; j++)
-        {
-            if (maze[i][j] == '0')
-            {
-                printf("  ");
-            }
-            else if (maze[i][j] == '1')
-            {
-                printf("■");
-            }
-            else if (maze[i][j] == '2')
-            {
-                printf("◎");
-            }
-        }
+    CONSOLE_CURSOR_INFO cursor;
 
-        printf("\n");
-    }
+    // 버퍼의 가로 사이즈, 세로 사이즈
+    COORD size = { width, height };
+
+    // left,top,right,bottom
+    SMALL_RECT rect = { 0, 0, width - 1, height - 1 };
+    
+    // front buffer를 생성합니다.----------------
+    screen[0] = CreateConsoleScreenBuffer
+    (
+        GENERIC_READ | GENERIC_WRITE, // 읽기, 쓰기
+        0,                            // 공유모드
+        NULL,                         // 보안속성
+        CONSOLE_TEXTMODE_BUFFER,      // 버퍼모드
+        NULL                          // 보안속성
+    );
+
+    // 버퍼의 사이즈를 설정합니다.
+    SetConsoleScreenBufferSize(screen[0], size);
+
+    // 버퍼의 위치를 설정합니다.
+    SetConsoleWindowInfo(screen[0], TRUE, &rect);
+    // TRUE: 버퍼의 위치를 설정
+
+
+    // back buffer를 생성합니다.-----------------
+    screen[1] = CreateConsoleScreenBuffer
+    (
+        GENERIC_READ | GENERIC_WRITE, // 읽기, 쓰기
+        0,                            // 공유모드
+        NULL,                         // 보안속성
+        CONSOLE_TEXTMODE_BUFFER,      // 버퍼모드
+        NULL                          // 보안속성
+    );
+
+    // 버퍼의 사이즈를 설정합니다.
+    SetConsoleScreenBufferSize(screen[1], size);
+
+    // 버퍼의 위치를 설정합니다.
+    SetConsoleWindowInfo(screen[1], TRUE, &rect);
+    // TRUE: 버퍼의 위치를 설정
+
+    // 커서의 활성화 여부
+    // false : 커서를 숨깁니다.
+    // true : 커서를 보입니다.
+
+    cursor.bVisible = FALSE;
+
+    SetConsoleCursorInfo(screen[0], &cursor);
+    SetConsoleCursorInfo(screen[1], &cursor);
+
+}   
+
+// 버퍼를 교체하는 함수
+void FlipScreen()
+{
+    // 버퍼를 하나만 활성화시킬 수 있는 함수
+    SetConsoleActiveScreenBuffer(screen[screenIndex]);
+    // screenIndex만 교체하면 됨
+    screenIndex = !screenIndex;
 }
+
+// 교체된 버퍼를 지워주는 함수
+void ClearScreen()
+{
+    COORD position = { 0, 0 };
+
+    DWORD written; // DWORD 4바이트, 정수저장 가능 
+
+    FillConsoleOutputCharacter // 화면에 문자를 그려주는 함수
+    (
+        screen[screenIndex], // 화면 버퍼
+        ' ',                 // 화면에 그려질 문자
+        width * height,      // 화면에 그려질 문자의 개수
+        position,            // 화면에 그려질 문자의 위치
+        &written             // 문자의 개수
+    );
+}
+
+// 버퍼를 해제하는 함수
+void ReleaseScreen()
+{
+    CloseHandle(screen[0]); // 버퍼를 해제합니다.
+    CloseHandle(screen[1]);
+
+}
+
+// 버퍼를 출력하는 함수
+void DrawScreen(int x, int y, const char * string)
+{
+    COORD position = { x, y };
+
+    DWORD written;
+
+    SetConsoleCursorPosition
+    (
+        screen[screenIndex],
+        position
+    ); // 버퍼의 위치를 설정합니다.
+
+    WriteFile // 버퍼의 문자열을 출력하는 함수
+    (
+        screen[screenIndex], // 버퍼
+        string,              // 문자열
+        strlen(string),      // 문자열의 길이
+        &written,            // 문자열의 길이
+        NULL                 // 보안속성
+    ); // 버퍼에 문자열을 출력합니다.
+}
+
+typedef struct Star
+{
+    int x, y;
+    const char* shape;
+}Star;
 
 int main()
-{
-    Character character = { 0, 1, "★" };
-    char key = 0;
-
-    Initialize();
+{   
+    int num = 0;
+    int direction = 0;
+    
+    // 난수 초기화
+    srand(time(NULL));
+    // 난수 발생기
+    for (int i = 0; i < 4; i++)
+    {
+        int direction = rand() % 4;
+    }
+    Star star = { 0, 0, "★" };
+    
+    // 1. 버퍼를 초기화합니다. (1번만 하면됨)
+    InitializeScreen();
 
     while (1)
     {
-        Renderer();
+        DrawScreen(0, 0, "★");
+        
+        // 2. 버퍼를 교체합니다.
+        FlipScreen();
 
-        Input(maze, &character);
+        // 3. 교체된 버퍼의 내용을 삭제합니다.
+        ClearScreen();
 
-        GotoXY(character.x, character.y);
-        printf("%s", character.shape);
-
-        Sleep(50); //Sleep(1000) : 1초
-        system("cls");
     }
+    // 4. 버퍼를 해제합니다.
+    ReleaseScreen();
 
     return 0;
 }
