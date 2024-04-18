@@ -7,15 +7,18 @@
       "RelativeMoniker": "D:0:0:{F336BB51-41B6-43B2-8823-CEE246B8831E}|Program.vcxproj|solutionrelative:Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{86C48F34-E242-4D3B-92A5-1165106036CA}|..\\Class23th (Double Buffering)\\Class23th (Double Buffering).vcxproj|C:\\Users\\yangj\\Desktop\\C-Lecture\\Class23th (Double Buffering)\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F336BB51-41B6-43B2-8823-CEE246B8831E}|Program.vcxproj|C:\\Users\\yangj\\Desktop\\C-Lecture\\Program\\Keyboard.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{F336BB51-41B6-43B2-8823-CEE246B8831E}|Program.vcxproj|solutionrelative:Keyboard.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{398089AD-565D-47B0-A2FF-C8CE90A5347E}|..\\Class22th (Maze Game)\\Class22th (Maze Game).vcxproj|C:\\Users\\yangj\\Desktop\\C-Lecture\\Class22th (Maze Game)\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F336BB51-41B6-43B2-8823-CEE246B8831E}|Program.vcxproj|C:\\Users\\yangj\\Desktop\\C-Lecture\\Program\\Character.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{F336BB51-41B6-43B2-8823-CEE246B8831E}|Program.vcxproj|solutionrelative:Character.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{398089AD-565D-47B0-A2FF-C8CE90A5347E}|..\\Class22th (Maze Game)\\Class22th (Maze Game).vcxproj|C:\\Users\\yangj\\Desktop\\C-Lecture\\Class22th (Maze Game)\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\yangj\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\C-Lecture2\\Class21th (KeyBoard)\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
@@ -43,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -63,20 +66,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
+              "Title": "Source.c",
+              "DocumentMoniker": "C:\\Users\\yangj\\Desktop\\C-Lecture\\Class23th (Double Buffering)\\Source.c",
+              "RelativeDocumentMoniker": "..\\Class23th (Double Buffering)\\Source.c",
+              "ToolTip": "C:\\Users\\yangj\\Desktop\\C-Lecture\\Class23th (Double Buffering)\\Source.c",
+              "RelativeToolTip": "..\\Class23th (Double Buffering)\\Source.c",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAANkAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-04-18T09:34:50.451Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Source.c",
               "DocumentMoniker": "C:\\Users\\yangj\\Desktop\\C-Lecture\\Class22th (Maze Game)\\Source.c",
               "RelativeDocumentMoniker": "..\\Class22th (Maze Game)\\Source.c",
               "ToolTip": "C:\\Users\\yangj\\Desktop\\C-Lecture\\Class22th (Maze Game)\\Source.c",
               "RelativeToolTip": "..\\Class22th (Maze Game)\\Source.c",
-              "ViewState": "AQIAADAAAAAAAAAAAAAAAEUAAAAAAAAA",
+              "ViewState": "AQIAADYAAAAAAAAAAAAAAEUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-04-16T10:41:49.049Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Source.c",
               "DocumentMoniker": "C:\\Users\\yangj\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\C-Lecture2\\Class18th (Random)\\Source.c",
               "RelativeDocumentMoniker": "..\\..\\..\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\C-Lecture2\\Class18th (Random)\\Source.c",
@@ -94,14 +110,14 @@
               "RelativeDocumentMoniker": "Source.c",
               "ToolTip": "C:\\Users\\yangj\\Desktop\\C-Lecture\\Program\\Source.c",
               "RelativeToolTip": "Source.c",
-              "ViewState": "AQIAAJAAAAAAAAAAAAAAAKgAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-04-16T07:32:30.516Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Keyboard.h",
               "DocumentMoniker": "C:\\Users\\yangj\\Desktop\\C-Lecture\\Program\\Keyboard.h",
               "RelativeDocumentMoniker": "Keyboard.h",
@@ -114,7 +130,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Source.c",
               "DocumentMoniker": "C:\\Users\\yangj\\Desktop\\C-Lecture\\Class19th (Typedef)\\Source.c",
               "RelativeDocumentMoniker": "..\\Class19th (Typedef)\\Source.c",
@@ -139,7 +155,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Source.c",
               "DocumentMoniker": "C:\\Users\\yangj\\Desktop\\C-Lecture\\Class21th (KeyBoard)\\Source.c",
               "RelativeDocumentMoniker": "..\\Class21th (KeyBoard)\\Source.c",
@@ -151,7 +167,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "source.c",
               "DocumentMoniker": "C:\\Users\\yangj\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\C-Lecture2\\Class20th (File Input-Output)\\source.c",
               "RelativeDocumentMoniker": "..\\..\\..\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\C-Lecture2\\Class20th (File Input-Output)\\source.c",
@@ -163,7 +179,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Source.c",
               "DocumentMoniker": "C:\\Users\\yangj\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\C-Lecture2\\Class21th (KeyBoard)\\Source.c",
               "RelativeDocumentMoniker": "..\\..\\..\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\C-Lecture2\\Class21th (KeyBoard)\\Source.c",
@@ -175,7 +191,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Source.c",
               "DocumentMoniker": "C:\\Users\\yangj\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\C-Lecture2\\Class19th (Typedef)\\Source.c",
               "RelativeDocumentMoniker": "..\\..\\..\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\C-Lecture2\\Class19th (Typedef)\\Source.c",
